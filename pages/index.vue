@@ -5,7 +5,7 @@
 <script>
 export default {
     created() {
-        this.$store.commit('SET_PAGETITLE', 'Home')
+        this.$store.commit('pagetitle/SET_PAGETITLE', 'Home')
     },
 }
 </script>

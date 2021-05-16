@@ -8,7 +8,7 @@
 export default {
     computed: {
         pageTitle() {
-            return this.$store.state.pagetitle
+            return this.$store.state.pagetitle.pageTitle
         },
     },
 }
