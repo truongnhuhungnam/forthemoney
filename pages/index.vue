@@ -1,11 +1,11 @@
 <template>
-    <div>
-        <h2 class="text-center text-3xl">
-            This is <span class="text-red-400">HOME</span> page
-        </h2>
-    </div>
+    <div></div>
 </template>
 
 <script>
-export default {}
+export default {
+    created() {
+        this.$store.commit('SET_PAGETITLE', 'Home')
+    },
+}
 </script>

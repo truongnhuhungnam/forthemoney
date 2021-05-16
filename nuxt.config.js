@@ -1,7 +1,7 @@
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'forthemoney',
+        title: 'FOR THE MONEY',
         meta: [
             { charset: 'utf-8' },
             {
@@ -14,7 +14,7 @@ export default {
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
-    css: ['~/assets/css/common.css'],
+    css: [],
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [],
