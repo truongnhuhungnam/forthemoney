@@ -7,11 +7,12 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
     computed: {
-        pageTitle() {
-            return this.$store.state.pagetitle.pageTitle
-        },
+        ...mapState({
+            pageTitle: (state) => state.pagetitle.pageTitle,
+        }),
     },
 }
 </script>
