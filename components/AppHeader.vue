@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-pink-400 py-4">
+    <div class="bg-pink-300 py-4">
         <div class="container mx-auto text-xl text-white">
             <ul class="flex">
                 <li><nuxt-link to="/">Home</nuxt-link></li>
@@ -15,7 +15,9 @@ export default {}
 <style lang="scss" scoped>
 ul {
     li {
-        margin-right: 4em;
+        &:not(:last-child) {
+            margin-right: 1em;
+        }
     }
 }
 </style>
