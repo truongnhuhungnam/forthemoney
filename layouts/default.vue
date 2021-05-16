@@ -1,8 +1,8 @@
 <template>
     <div>
         <app-header />
+        <PageTitle />
         <div class="container mx-auto py-4">
-            <PageTitle />
             <Nuxt />
         </div>
     </div>
