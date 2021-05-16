@@ -1,8 +1,6 @@
 <template>
     <div class="main flex items-center justify-center">
-        <h2
-            class="text-center text-4xl text-pink-400 font-bold tracking-widest"
-        >
+        <h2 class="text-center text-6xl text-pink-400 tracking-widest">
             <span class="border-b-4 border-pink-400">{{ pageTitle }}</span>
         </h2>
     </div>
