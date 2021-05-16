@@ -14,7 +14,6 @@
 export default {}
 </script>
 <style lang="scss" scoped>
-.nuxt-link-active:hover,
 .nuxt-link-exact-active {
     background-color: rgba(219, 39, 119, var(--tw-bg-opacity));
 }
@@ -23,6 +22,10 @@ ul {
         a {
             display: block;
             padding: 1rem;
+            transition: all 0.3s;
+            &:hover {
+                background-color: rgba(219, 39, 119, var(--tw-bg-opacity));
+            }
         }
     }
 }
