@@ -22,6 +22,83 @@
                 Go to deck
             </button>
         </div>
+        <div class="flex justify-center">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
+                <nuxt-link
+                    to="/decks/1"
+                    class="
+                        block
+                        transition
+                        duration-500
+                        ease-in-out
+                        hover:opacity-60
+                    "
+                >
+                    <img
+                        class="w-full"
+                        src="https://loremflickr.com/320/240?random=1"
+                    />
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatibus quia, nulla! Maiores et
+                            perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                </nuxt-link>
+            </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
+                <nuxt-link
+                    to="/decks/1"
+                    class="
+                        block
+                        transition
+                        duration-500
+                        ease-in-out
+                        hover:opacity-60
+                    "
+                >
+                    <img
+                        class="w-full"
+                        src="https://loremflickr.com/320/240?random=1"
+                    />
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatibus quia, nulla! Maiores et
+                            perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                </nuxt-link>
+            </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
+                <nuxt-link
+                    to="/decks/1"
+                    class="
+                        block
+                        transition
+                        duration-500
+                        ease-in-out
+                        hover:opacity-60
+                    "
+                >
+                    <img
+                        class="w-full"
+                        src="https://loremflickr.com/320/240?random=1"
+                    />
+                    <div class="px-6 py-4">
+                        <div class="font-bold text-xl mb-2">Mountain</div>
+                        <p class="text-gray-700 text-base">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatibus quia, nulla! Maiores et
+                            perferendis eaque, exercitationem praesentium nihil.
+                        </p>
+                    </div>
+                </nuxt-link>
+            </div>
+        </div>
     </div>
 </template>
 
