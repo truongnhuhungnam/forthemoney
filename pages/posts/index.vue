@@ -25,7 +25,7 @@
         <div class="flex justify-center">
             <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
                 <nuxt-link
-                    to="/decks/1"
+                    to="/posts/1"
                     class="
                         block
                         transition
@@ -50,7 +50,7 @@
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
                 <nuxt-link
-                    to="/decks/1"
+                    to="/posts/1"
                     class="
                         block
                         transition
@@ -75,7 +75,7 @@
             </div>
             <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
                 <nuxt-link
-                    to="/decks/1"
+                    to="/posts/1"
                     class="
                         block
                         transition
@@ -110,11 +110,11 @@ export default {
         }
     },
     created() {
-        this.$store.commit('pagetitle/SET_PAGETITLE', 'DECKS')
+        this.$store.commit('pagetitle/SET_PAGETITLE', 'POSTS')
     },
     methods: {
         showDeck() {
-            this.$router.push(`/decks/${this.deckId}`)
+            this.$router.push(`/posts/${this.deckId}`)
         },
     },
 }
