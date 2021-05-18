@@ -16,7 +16,9 @@
         <section class="post-feedback">
             <p>
                 Let me know what you think about, send a mail to
-                <a href="mailto:truongnhuhungnam@gmail.com"
+                <a
+                    href="mailto:truongnhuhungnam@gmail.com"
+                    class="text-pink-400"
                     >truongnhuhungnam@gmail.com</a
                 >.
             </p>
