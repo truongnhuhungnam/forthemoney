@@ -23,7 +23,7 @@
                     >
                     <AppButton
                         type="button"
-                        btn-style="bg-red-400"
+                        btn-style="bg-pink-400"
                         @click="onCancel"
                         >Cancel</AppButton
                     >
