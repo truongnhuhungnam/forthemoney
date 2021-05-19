@@ -18,12 +18,12 @@
                     Content
                 </AppControllInput>
                 <div class="btnWrapper mt-4 text-center">
-                    <AppButton type="submit" btn-style="bg-pink-400"
+                    <AppButton type="submit" btn-style="bg-green-400"
                         >Save</AppButton
                     >
                     <AppButton
                         type="button"
-                        btn-style="bg-pink-400"
+                        btn-style="bg-red-400"
                         @click="onCancel"
                         >Cancel</AppButton
                     >
