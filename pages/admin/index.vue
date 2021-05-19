@@ -20,7 +20,7 @@
                     >Existing Post</span
                 >
             </h1>
-            <PostList />
+            <PostList is-admin />
         </section>
     </div>
 </template>

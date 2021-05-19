@@ -1,5 +1,5 @@
 <template>
-    <div class="formField py-1 flex items-center">
+    <div class="formField my-4 flex items-center">
         <label class="w-1/3"><slot /></label>
         <input
             v-if="controlType === 'input'"

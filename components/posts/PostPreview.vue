@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-sm rounded overflow-hidden shadow-lg m-4">
         <nuxt-link
-            :to="'/posts/' + id"
+            :to="postLink"
             class="block transition duration-500 ease-in-out hover:opacity-60"
         >
             <img class="w-full" :src="thumbnail" />
@@ -20,6 +20,10 @@ export default {
             type: String,
             required: true,
         },
+        isAdmin: {
+            type: Boolean,
+            required: true,
+        },
         title: {
             type: String,
             required: true,
@@ -31,6 +35,11 @@ export default {
         thumbnail: {
             type: String,
             required: true,
+        },
+    },
+    computed: {
+        postLink() {
+            return this.isAdmin ? '/admin/' + this.id : '/posts/' + this.id
         },
     },
 }
