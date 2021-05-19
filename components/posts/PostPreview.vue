@@ -7,7 +7,7 @@
             <img class="w-full" :src="thumbnail" />
             <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">{{ title }}</div>
-                <p class="text-gray-700 text-base">{{ previewText }}</p>
+                <p class="text-gray-700 text-base">{{ text }}</p>
             </div>
         </nuxt-link>
     </div>
@@ -24,7 +24,7 @@ export default {
             type: String,
             required: true,
         },
-        previewText: {
+        text: {
             type: String,
             required: true,
         },

@@ -22,33 +22,14 @@
                 Go to post
             </button>
         </div>
-        <div class="flex justify-center">
-            <PostPreview
-                id="1"
-                thumbnail="https://loremflickr.com/320/240?random=1"
-                title="Hello"
-                preview-text="This my furst post."
-            />
-            <PostPreview
-                id="2"
-                thumbnail="https://loremflickr.com/320/240?random=1"
-                title="Hello"
-                preview-text="This my furst post."
-            />
-            <PostPreview
-                id="3"
-                thumbnail="https://loremflickr.com/320/240?random=1"
-                title="Hello"
-                preview-text="This my furst post."
-            />
-        </div>
+        <PostList />
     </div>
 </template>
 
 <script>
-import PostPreview from '~/components/posts/PostPreview.vue'
+import PostList from '~/components/posts/PostList.vue'
 export default {
-    components: { PostPreview },
+    components: { PostList },
     data() {
         return {
             deckId: '',
