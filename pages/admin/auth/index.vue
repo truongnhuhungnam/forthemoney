@@ -27,6 +27,7 @@ export default {
         AppControlInput,
         AppButton,
     },
+    layout: 'admin',
     data() {
         return {
             isLogin: true,

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <app-header />
+        <AppHeader />
         <PageTitle />
         <div class="container mx-auto py-4">
             <Nuxt />
